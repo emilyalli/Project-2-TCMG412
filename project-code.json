@@ -17,6 +17,8 @@ else:
 
   total_requests = 0
   reg_year = 0
+  each_day = 0
+  per_week = 0
   today = datetime(1995, 10, 11, 14, 14, 17)
   print("Today:", today)
   for line in file:
@@ -32,3 +34,5 @@ file.close()
 
 print("Total requests: ",total_requests)
 print("Requests in Past Year: ", reg_year)
+print("Requests on Each Day: "), each_day)
+print("Requests Per Week: "), per_week)
